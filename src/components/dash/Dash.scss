@@ -1,0 +1,54 @@
+.dash{
+  max-width: 600px;
+  margin: 50px auto;
+  .dash-users{
+    position: relative;
+    padding-bottom: 100%;
+    .dash-users-sub{
+      padding: 50px;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      ul{
+        border: 3px solid #fff;
+        border-radius: 50%;
+        height: 100%;
+        width: 100%;
+        position: relative;
+        li{
+          margin: -5% 0 0 -5%;
+          width: 10%;
+          height: 10%;
+          list-style: none;
+          position: absolute;
+          background-color: red;
+          border-radius: 50%;
+          text-align: center;
+          padding: 0px;
+          transition: top 0.5s,left 0.5s, width 0.5s, height 0.5s;
+          &:nth-child(2n+0){
+            background-color: orange;
+          }
+          &:nth-child(3n+0){
+            background-color: blue;
+          }
+          &:nth-child(4n+0){
+            background-color: yellow;
+          }
+          &:nth-child(5n+0){
+            background-color: purple;
+          }
+          &:nth-child(6n+0){
+            background-color: green;
+          }
+          &:nth-child(7n+0){
+            background-color: pink;
+          }
+          &:nth-child(8n+0){
+            background-color: turquoise;
+          }
+        }
+      }
+    }
+  }
+}
